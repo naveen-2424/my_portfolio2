@@ -3,7 +3,7 @@
   padding: 0%;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 body {
@@ -180,9 +180,9 @@ a:hover::after {
 }
 /* contact section */
 .contact {
-  height: 200px;
+  height: 400px;
   width: 800px;
-  border-radius: 200px;
+  border-radius: 150px;
   background: linear-gradient(
     to right,
     black,
@@ -196,10 +196,9 @@ a:hover::after {
 }
 .gmail {
   display: flex;
-  text-align: cent;
 }
 .gmail h1 {
-    color: white;
+  color: white;
   padding-top: 30px;
   margin: 10px;
 }
@@ -217,13 +216,40 @@ a:hover::after {
   width: 60px;
 }
 .linkedin h1 {
-    color: white;
+  color: white;
   padding-left: 10px;
   margin: 20px;
 }
-a{
-    text-decoration: none;
+.instagram img {
+  height: 80px;
+  width: 80px;
+  margin-left: 110px;
 }
-#skill{
-    scroll-margin-top: 200px;
+.github img {
+  height: 80px;
+  width: 80px;
+}
+.instagram a {
+  margin: 20px;
+}
+.instagram {
+  display: flex;
+}
+.github {
+  display: flex;
+  margin-left: 110px;
+}
+.github a {
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+#skill {
+  scroll-margin-top: 200px;
+}
+a {
+  text-decoration: none;
+  color: white;
 }
