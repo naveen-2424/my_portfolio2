@@ -114,8 +114,7 @@ a:hover::after {
 /* about section */
 .about {
   display: flex;
-  justify-content: space-betwee;
-  margin-top: 300px;
+  margin-top: px;
   margin-bottom: 250px;
 }
 .about1 img {
@@ -171,10 +170,10 @@ a:hover::after {
 }
 .skills2 {
   position: absolute;
-  top: 2150px;
+  top: 1850px;
   right: 750px;
 }
-.skills2 h1 {
+.skills2 h2 {
   font-weight: 800;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -189,7 +188,7 @@ a:hover::after {
     rgb(28, 29, 29),
     rgb(82, 84, 83)
   );
-  margin-top: 600px;
+  margin-top: 350px;
   margin-bottom: 300px;
   margin-left: 380px;
   font-family: sans-serif;
@@ -197,7 +196,7 @@ a:hover::after {
 .gmail {
   display: flex;
 }
-.gmail h1 {
+.gmail h2 {
   color: white;
   padding-top: 30px;
   margin: 10px;
@@ -215,7 +214,7 @@ a:hover::after {
   height: 60px;
   width: 60px;
 }
-.linkedin h1 {
+.linkedin h2 {
   color: white;
   padding-left: 10px;
   margin: 20px;
