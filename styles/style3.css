@@ -44,7 +44,7 @@ nav ul li a {
   text-decoration: none;
   font-family: sans-serif;
 }
-a::after {
+nav a::after {
   content: "";
   display: block;
   width: 0;
@@ -53,7 +53,7 @@ a::after {
   transition: width 0.6s;
 }
 
-a:hover::after {
+nav a:hover::after {
   width: 100%;
 }
 /* Home Section  */
@@ -173,6 +173,66 @@ a:hover::after {
 .skills2 h2 {
   font-weight: 800;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* project section */
+
+.project{
+  display:flex;
+  background-color: #353335;
+border-radius: 150px;
+margin: 50px;
+
+}
+.letter{
+  font-size: 100px;
+  font-family: sans-serif;
+  margin-top: 360px;
+  
+}
+#project{
+  scroll-margin: 50px;
+}
+.project .img1{
+  margin: 100px;
+
+}
+.img2{
+  height: 350px;
+  width: 600px;
+}
+
+
+
+.project2 p{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, Arial, Helvetica, sans-serif;
+font-size: 40px;
+}
+.project2 h3{
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 100px;
+  color: rgb(43, 122, 43);
+  font-size: 25px;
+  padding: 10px;
+  width: 600px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.project2 button{
+  
+    background: linear-gradient(
+      to right,
+      rgb(101, 98, 98),
+      rgb(28, 29, 29),
+      rgb(82, 84, 83)
+    );
+    font-size: 20px;
+    color: white;
+    
+    height: 50px;
+    width: 150px;
+    border-radius: 150px;
+    margin-top:150px;
+    margin-left: 100px;
 }
 /* contact section */
 .contact {
