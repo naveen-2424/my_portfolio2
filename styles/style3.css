@@ -44,8 +44,7 @@ nav ul li a {
   text-decoration: none;
   font-family: sans-serif;
 }
-nav a::after {
-  content: "";
+nav a::after {  content: "";
   display: block;
   width: 0;
   height: 3px;
@@ -308,4 +307,123 @@ a {
 a {
   text-decoration: none;
   color: white;
+}
+.english-skills-section {
+  border-radius: 10px;
+  scroll-margin: 200px;
+  padding: 40px;
+  text-align: center;
+}
+.english-skills-title {
+  font-size: 50px;
+  color: rgb(225, 224, 224);
+  text-shadow: 8px 20px 3px rgb(29, 22, 22);
+  font-family: "Archivo Black", sans-serif;
+  letter-spacing: 5px;
+  margin-bottom: 150px;
+  scroll-margin: 120px;
+}
+.english-skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}
+.english-skill {
+  width: 45%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.english-skill-name {
+  font-size: 35px;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+.stars {
+  font-size: 50px;
+  color: rgb(182, 156, 9);
+}
+.skill-level{
+  font-size: 25px;
+}.english-skills-section {
+  border-radius: 10px;
+  scroll-margin: 200px;
+  padding: 40px;
+  text-align: center;
+}
+.english-skills-title {
+  font-size: 50px;
+  color: rgb(239, 236, 236);
+
+  font-family: "Archivo Black", sans-serif;
+  letter-spacing: 5px;
+  margin-bottom: 150px;
+  scroll-margin: 120px;
+}
+.english-skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}
+.english-skill {
+  width: 45%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.english-skill-name {
+  font-size: 35px;
+  margin-bottom: 10px;
+  font-weight: 100;
+}
+.stars {
+  font-size: 50px;
+  color: rgb(182, 156, 9);
+}
+.skill-level{
+  font-size: 25px;
+}
+
+
+.skills-container {
+
+  padding: 20px 550px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: #efecec;
+}
+
+.skill {
+  margin-bottom: 50px;
+}
+
+.skill p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #dfd8d8;
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress-bar {
+  background-color: #eae7e7;
+  border-radius: 25px;
+  overflow: hidden;
+  margin-top: 5px;
+  height: 10px;
+  position: relative;
+}
+
+.progress {
+  background-color: rgb(182, 156, 9);
+  height: 100%;
+  transition: width 0.5s ease;
 }
