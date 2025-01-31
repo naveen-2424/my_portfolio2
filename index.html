@@ -3,25 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/style3.css" />
+    <link rel="stylesheet" href="./style3.css" />
     <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_tjODaA0QgsA3l0imGNa4HOMOy3_6TjV-Tw&s"sizes="32x32"/>
     <title>my_portfolio</title>
   </head>
   <body>
     <!-- Header Section -->
     <header>
+      <div>Portfolio</div>
       <nav>
         <ul>
-          <li><a  href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skill">Skills</a></li>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#skill">Tech skill</a></li>
+          <li><a href="#Communicationskill">Communication skill</a></li>
+          <li><a href="#Life skill">Life skill</a></li>
+          <li><a href="#Project">project</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <!-- Home Section -->
     <section>
-      <div class="home" id="home">
+      <div class="home" id="Home">
         <div class="home1">
           <h3 class="name">Hello I Am</h3>
           <h3 class="name1">Naveen</h3>
@@ -35,8 +39,10 @@
     </section>
 
     <!-- about Section -->
-    <section class="about" id="about">
-      <div class="about1">
+    <section class="about" id="About">
+      <h2 >About Me</h2>
+      
+      <!-- <div class="about1">
         <img src="./assets/img_certificate.png" alt="image update" />
       </div>
       <div class="about2">
@@ -47,23 +53,262 @@
         <p class="paragraph1">
           User Friendly websites created in advanced<br />technology using
         </p>
-      </div>
+      </div> -->
+      <!-- <div class="about-container">
+        <h1>About Me</h1>
+        <p>Hi, I’m <strong>Naveen</strong> from <strong>Erode</strong>. I have completed <strong>12th grade</strong> and 
+        currently work as a <strong>QA Engineer</strong>, specializing in <strong>manual and automation testing</strong>. 
+        I am passionate about ensuring software quality and improving user experiences through effective testing.</p>
+    </div> -->
+    <div class="about-container">
+      <img src="https://cdn-icons-png.flaticon.com/512/1903/1903162.png" alt="QA Testing Image" class="img1">
+      <!-- <img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png" alt="QA Engineer Image" class="profile-img"> -->
+       
+      <p>Hi, I’m <strong>Naveen</strong> from <strong>Erode</strong>. I have completed <strong>12th grade</strong> and 
+      currently work as a <strong>QA Engineer</strong>, specializing in <strong>manual and automation testing</strong>. 
+      I am passionate about ensuring software quality and improving user experiences through effective testing.</p>
+  </div>
     </section>
 
     <!-- skills section -->
     <section class="skills" id="skill">
-      <div class="skills2">
+      <!-- <div class="skills2">
         <h2>#HTML</h2>
         <h2>#CSS</h2>
         <h2>#JAVA SCRIPT</h2>
       </div>
-      <div class="skills3">
+      <div>
         <img src="./assets/img_skills3.png" alt="image update" />
+      </div> -->
+      <h2 >Tech Skills</h2>
+      <div class="skills-container">
+
+        <div class="skill" >
+            <img src="https://cdn-icons-png.flaticon.com/512/1216/1216733.png" alt="HTML">
+            <span>HTML</span>
+            <span class="level">Intermediate</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 73%;"><span>73%</span></div>
+            </div>
+            <div class="labels">
+                <span>Beginner</span>
+                <span>Intermediate</span>
+                <span>Expert</span>
+            </div>
+        </div>
+
+        <div class="skill">
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS">
+            <span>CSS</span>
+            <span class="level">Intermediate</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 63%;"><span>63%</span></div>
+            </div>
+            <div class="labels">
+                <span>Beginner</span>
+                <span>Intermediate</span>
+                <span>Expert</span>
+            </div>
+        </div>
+
+        <div class="skill">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="Python">
+            <span>Python</span>
+            <span class="level">Expert</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 75%;"><span>75%</span></div>
+            </div>
+            <div class="labels">
+                <span>Beginner</span>
+                <span>Intermediate</span>
+                <span>Expert</span>
+            </div>
+        </div>
+
+        <div class="skill">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript">
+            <span>JavaScript</span>
+            <span class="level">Intermediate</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 65%;"><span>65%</span></div>
+            </div>
+            <div class="labels">
+                <span>Beginner</span>
+                <span>Intermediate</span>
+                <span>Expert</span>
+            </div>
+        </div>
+
+        <div class="skill">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968342.png" alt="Selenium">
+            <span>Selenium</span>
+            <span class="level">Expert</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 80%;"><span>80%</span></div>
+            </div>
+            <div class="labels">
+                <span>Beginner</span>
+                <span>Intermediate</span>
+                <span>Expert</span>
+            </div>
+        </div>
+
+        <div class="skill">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968313.png" alt="MySQL">
+            <span>MySQL</span>
+            <span class="level">Expert</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 80%;"><span>80%</span></div>
+            </div>
+            <div class="labels">
+                <span>Beginner</span>
+                <span>Intermediate</span>
+                <span>Expert</span>
+            </div>
+        </div>
+
+        <div class="skill">
+            <img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png" alt="Problem Solving">
+            <span>Problem Solving</span>
+            <span class="level">Intermediate</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 65%;"><span>65%</span></div>
+            </div>
+            <div class="labels">
+                <span>Beginner</span>
+                <span>Intermediate</span>
+                <span>Expert</span>
+            </div>
+        </div>
+
+        <div class="skill">
+            <img src="https://cdn-icons-png.flaticon.com/512/6062/6062645.png" alt="Manual Testing">
+            <span>Manual Testing</span>
+            <span class="level">Intermediate</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 50%;"><span>50%</span></div>
+            </div>
+            <div class="labels">
+                <span>Beginner</span>
+                <span>Intermediate</span>
+                <span>Expert</span>
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+<!-- project section -->
+<section  id="project">
+  <!-- <h3  class="letter">Project</h3>
+<div class="project">
+  <div>
+  <img class="img1" src="/assets/image.png">
+  </div>
+  <div class="project2">
+    <p>Cocos Nucifera</p>
+    <h3>❝I created this website to showcase my handcrafted coconut shell products—eco-friendly, unique, and versatile. Embrace sustainable living with beautifully designed items that elevate your home❞.</h3>
+   <button><a href="http://127.0.0.1:5500/product1.html">View Website</a></button>
+  </div>
+    </div> -->
+    <section class="english-skills-section" id="Communicationskill" style="scroll-margin-top: 250px;" >
+    <h3 class="english-skills-title" id="english-skills">English Skills</h3>
+    <div class="english-skills-container">
+        <div class="skill_card">
+            <div class="skill_title">Speaking</div>
+            <div class="stars">&#9733;&#9733;&#9734;&#9734;&#9734;</div>
+            <div class="skill-level">Beginner</div>
+        </div>
+        <div class="skill_card">
+            <div class="skill_title">Listening</div>
+            <div class="stars">&#9733;&#9733;&#9734;&#9734;&#9734;</div>
+            <div class="skill-level">Intermediate</div>
+        </div>
+        <div class="skill_card">
+            <div class="skill_title">Writing</div>
+            <div class="stars">&#9733;&#9733;&#9734;&#9734;&#9734;</div>
+            <div class="skill-level">Basic</div>
+        </div>
+        <div class="skill_card">
+            <div class="skill_title">Reading</div>
+            <div class="stars">&#9733;&#9733;&#9734;&#9734;&#9734;</div>
+            <div class="skill-level">Intermediate</div>
+        </div>
+    </div>
+  </section>
+
+
+  <section id="Life skill" style="scroll-margin-top: 180px;" >
+    <section class="english-skills-section" >
+      <h3 class="english-skills-title"  class="life">Life Skills</h3>
+      <div class="english-skills-container">
+          <div class="skill_card">
+              <div class="skill_title">Adaptability & Continous Learning</div>
+              <div class="stars">&#9733;&#9733;&#9734;&#9734;&#9734;</div>
+              <div class="skill-level">Intermediate</div>
+          </div>
+          <div class="skill_card">
+              <div class="skill_title">Self Management & Self Awareness</div>
+              <div class="stars">&#9733;&#9733;&#9733;&#9734;&#9734;</div>
+              <div class="skill-level">Intermediate</div>
+          </div>
+          <div class="skill_card">
+              <div class="skill_title">Social Skills</div>
+              <div class="stars">&#9733;&#9733;&#9733;&#9734;&#9734;</div>
+              <div class="skill-level">Intermediate</div>
+          </div>
+      </div>
+    </section> 
       </div>
     </section>
+
+    <!-- <section  id="project"> -->
+
+    <!-- Navigation Bar -->
+    <section id="Project" style="scroll-margin-top: 150px;">
+    <h1  class="myproject"style="color: rgb(232, 232, 240); text-align: center;"  >My Projects</h1>
+      
+
+    <!-- Project Section -->
+    <section class="projects-container">
+      
+        <!-- Project 1 -->
+        
+        <div class="project-card">
+            <img src="./assets/image.png" alt="Project 1">
+            <div class="project-info">
+                <h2>coconusifera</h2>
+                <p>E-commerce website.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+            <img src="./assets/large.png" alt="Project 2">
+            <div class="project-info">
+                <h2>Menuval Testing</h2>
+                <p>Test cases wrting google sheet.</p>
+                <a href="#" class="btn">View Project</a>
+            </div>
+        </div>
+        </section>
+
+        
+
+    </section>
+    
+
+
+
+
+
+
     <!-- contact section -->
     <section class="contact" id="contact">
-      <div class="gmail">
+      <h1>Contact</h1>
+      <div>
+        <div class="gmail">
         <img src="./assets/img_gmail.png" alt="image update" />
         <a href="mailto:naveensathyammorthi@gmail.com"
           ><h2>naveensathiyamoorthigmail.com</h2></a
@@ -87,6 +332,7 @@
           ><h2>github.com/naveen-2424</h2></a
         >
       </div>
+    </div>
     </section>
   </body>
 </html>
